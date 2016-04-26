@@ -4,11 +4,12 @@ import android.app.Fragment;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
+import android.support.v7.app.AppCompatActivity;
 
 /**
  * Created by Davis on 2/17/2016.
  */
-public abstract class SingleFragmentActivity extends FragmentActivity{
+public abstract class SingleFragmentActivity extends AppCompatActivity{
     
     protected abstract android.support.v4.app.Fragment createFragment();
 
